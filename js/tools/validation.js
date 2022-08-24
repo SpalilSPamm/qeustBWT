@@ -14,3 +14,20 @@ function isCorrectDate(date) {
 function isCorrectCountry(country) {
     return list.includes(country);
 }
+
+
+function isCordinnatLatCorrect(cr){
+    if(cr > 0 ||  cr < 90){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function isCordinnatLatCorrect(cr){
+    if(cr > 0 ||  cr < 180){
+        return true;
+    }else{
+        return false;
+    }
+}

@@ -4,7 +4,6 @@ getDataListCountry();
 
 function refreshDates() {
 
-
     if (!isCorrectName(document.getElementById('name-create').value)) {
         return alert("Incorrect name");
     }
@@ -20,6 +19,9 @@ function refreshDates() {
         return alert("incorrect country");
     }
     document.getElementById('a-country').value = document.getElementById('create-country').value;
+    if(!document.getElementById('create-lat').value || !document.getElementById('create-lng').value){
+        return alert("Incorrect coordinates")
+    }
     document.getElementById('a-lat').value = document.getElementById('create-lat').value;
     document.getElementById('a-lng').value = document.getElementById('create-lng').value;
 }
