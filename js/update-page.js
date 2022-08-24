@@ -1,5 +1,6 @@
 document.getElementById('saveUpdate').addEventListener("click", refreshDates);
 
+getDataListCountry();
 
 function refreshDates() {
 
@@ -17,10 +18,6 @@ function refreshDates() {
         return alert("incorrect country");
     }
     document.getElementById('u-country').value = document.getElementById('country-update').value;
-    if (!isCordinatCorrect(document.getElementById('update-lat').value)
-        || !isCordinatCorrect(document.getElementById('update-lng').value)) {
-        return alert("incorrect coordinates");
-    }
     document.getElementById('u-lat').value = document.getElementById('update-lat').value;
     document.getElementById('u-lng').value = document.getElementById('update-lng').value;
     document.getElementById('u-id').value = document.getElementById('update-id-info').value;

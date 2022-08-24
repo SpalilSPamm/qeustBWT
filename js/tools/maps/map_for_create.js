@@ -22,7 +22,6 @@ function initMap() {
         document.getElementById('create-lng').value = marker.position.lng();
 
     });
-
     getPositionMarker();
     infoWindow = new google.maps.InfoWindow();
 }

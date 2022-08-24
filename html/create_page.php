@@ -135,7 +135,7 @@
                                                     required="required" value="0">
                         </div>
                         <div class="col-sm-2 col-md-2 col-xs-2 p-0 d-flex align-items-end justify-content-start">
-                            <button type="submit" class="btn btn-primary w-100 h-50" id="findButton-create">Find
+                            <button type="button" class="btn btn-primary w-100 h-50" id="findButton-create">Find
                             </button>
                         </div>
                     </div>

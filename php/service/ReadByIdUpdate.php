@@ -14,6 +14,8 @@ $result = $db->readById($id);
 
     function printInfoConf(name, date, country, lat, lng, id) {
         document.getElementById('name-update').value = name;
+        let array = date.toString().split("-");
+        date = array[2] + "." + array[1] + "." + array[0];
         document.getElementById('update-date').value = date;
         document.getElementById('country-update').value = country;
         document.getElementById('update-lat').value = lat;

@@ -113,7 +113,7 @@
                                                     value="">
                         </div>
                         <div class="col-sm-2 col-md-2 col-xs-2 p-0 d-flex align-items-end justify-content-start">
-                            <button type="submit" class="btn btn-primary w-100 h-50" id="findButton-update">Find
+                            <button type="button" class="btn btn-primary w-100 h-50" id="findButton-update">Find
                             </button>
                         </div>
                     </div>
@@ -295,6 +295,7 @@
 require_once "../php/service/ReadByIdUpdate.php";
 
 ?>
+<script src="../js/tools/validation.js"></script>
 <script src="../js/tools/tools.js"></script>
 <script src="../js/tools/maps/map_for_update.js"></script>
 <script src="../js/update-page.js"></script>

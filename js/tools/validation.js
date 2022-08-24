@@ -14,12 +14,3 @@ function isCorrectDate(date) {
 function isCorrectCountry(country) {
     return list.includes(country);
 }
-
-function isCordinatCorrect(cr) {
-    let type = typeof cr;
-    if (type.toString() === 'float') {
-        return true;
-    } else {
-        return false;
-    }
-}
